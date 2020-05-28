@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,600,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Asap', sans-serif;
+    /* makes elements unselectable */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    background-color: #292C34;
+}
+
+header {
+    background-color: white;
+    padding: 20px 0px;
+}
+
+header > h1 {
+    color: #24272E;
+    text-align: center;
+}
+
+.score-board {
+    position: relative;
+    text-align: center;
+    margin: 20px auto;
+    margin-top: 20px;
+    border: solid white 3px;
+    border-radius: 4px;
+    width: 200px;
+    color: white;
+    padding: 15px 20px;
+    font-size: 46px;
+}
+
+.badge {
+    background-color: #E2584D;
+    padding: 2px 10px;
+    font-size: 14px;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#comp-label {
+    position: absolute;
+    top: 30px;
+    right: -25px;
+}
+
+.score-board > span {
+    font-size: 36px;
+}
+
+.result > p {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.choices {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.choice {
+    border: solid 4px white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.choice > img{
+    border-radius: 50%;
+    height: 150px;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+#action-msg {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.green-glow {
+    border: solid #4dcc7d 4px;
+    box-shadow: 0 0 10px #31b43a;
+    border-radius: 50%;
+}
+
+.red-glow {
+    border: solid #fc121b 4px;
+    box-shadow: 0 0 10px #d01115;
+    border-radius: 50%;
+}
+
+.gray-glow {
+    border: solid #464646 4px;
+    box-shadow: 0 0 10px #25292b;
+    border-radius: 50%;
+}
