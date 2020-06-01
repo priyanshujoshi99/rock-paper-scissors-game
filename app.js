@@ -43,7 +43,7 @@ const lost = (user, comp) => {
     userChoice_div.classList.add('red-glow');
     setTimeout(function() {
         document.getElementById(user).classList.remove('red-glow');
-    }, 300)
+    }, 500)
 }
 
 const draw = (user, comp) => {
